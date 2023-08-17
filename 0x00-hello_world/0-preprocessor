@@ -1,26 +1,2 @@
-$!/bin/bash 
-ssorbin/bash 
-file name from the environment variable
- c_file_name=$CFILE
-
- # Create the output file
- output_file="c"
-
- # Run the preprocessor
- preprocessor_output=$(gcc -E $c_file_name)
-
- # Write the preprocessor output to the output file
- echo "$preprocessor_output" > $output_file
-
-file name from the environment variable
- c_file_name=$CFILE
-
- # Create the output file
- output_file="c"
-
- # Run the preprocessor
- preprocessor_output=$(gcc -E $c_file_name)
-
- # Write the preprocessor output to the output file
- echo "$preprocessor_output" > $output_file
-
+#!/bin/bash
+gcc -E $CFILE -o c

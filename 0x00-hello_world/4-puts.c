@@ -1,11 +1,11 @@
-#include<stdio.h>
-/**
- * * main - Prints string character wiht puts.
- * * Return: 0.
- * */
-
-int main(void)
-{
-		puts("\"Programming is like building a multilingual puzzle");
-			return (0);
+s program prints the string "Programming is like building a multilingual puzzle"
+ * using the puts() function.
+ *  */
+ 
+#include <stdio.h>
+ 
+ int main(void) {
+   puts("Programming is like building a multilingual puzzle");
+   return 0;
+ }
 }

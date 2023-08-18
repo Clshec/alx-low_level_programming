@@ -1,11 +1,7 @@
-nclude<stdio.h>
-/**
- * * main - Prints string character wiht puts.
- * * Return: 0.
- * */
+nclude <stdio.h>
 
-int main(void)
-{
-		puts("\"Programming is like building a multilingual puzzle");
-			return (0);
+int main() {
+	  puts("Programming is like building a multilingual puzzle");
+	    return 0;
 }
+
